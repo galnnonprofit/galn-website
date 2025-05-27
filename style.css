@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: #004466;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.hero {
+  background: #0099cc;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #004466;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.info-section {
+  padding: 40px 20px;
+}
+
+.light-bg {
+  background: #f4f4f4;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #004466;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
